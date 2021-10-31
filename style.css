@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+
+	background: hsl(225, 100%, 94%);
+	font-size: 16px;
+}
+
+.container{
+
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (min-width: 200px){
+
+	.card{
+
+		display: flex;
+		flex-direction: column;
+		width: 350px;
+		min-height: 500px;
+		background: #fff;
+		border-radius: 30px;
+		overflow: hidden;
+	}
+
+	.card .card-image img{
+
+		width: 100%;
+		height: auto;
+	}
+
+	.card .card-title{
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 20px 0;
+	}
+
+	.card .card-title h1{
+
+		font-weight: 900;
+		color: hsl(223, 47%, 23%);
+	}
+
+	.card .card-title p{
+
+		padding: 10px 0;
+		width: 80%;
+		color: hsl(224, 23%, 55%);
+	    line-height: 1.5;
+	    font-size: 15px;
+	}
+
+	.card .card-price{
+
+		display: flex;
+		align-items: center;
+		justify-content: left;
+		border-radius: 10px;
+		background: #f7f7f7;
+		padding: 10px;
+		width: 85%;
+		margin: 0 auto;
+		font-size: 14px;
+	}
+
+	.card .card-price .card-price-text{
+
+		margin: 0 45px 0 20px;
+	
+	}
+
+	.card .card-price .cp-title{
+
+		font-weight: 900;
+		color: hsl(223, 47%, 23%);
+	}
+
+	.card .card-price .cp-price{
+
+		font-size: 13px;
+		color: hsl(224, 23%, 55%);
+	}
+
+	.card .card-price .card-price-link a{
+
+		color: hsl(245, 75%, 52%);
+		font-weight: 700;
+		font-size: 13px;
+	}
+
+	.card .card-price .card-price-link a:hover{
+
+		text-decoration: none;
+		opacity: 0.7;
+	}
+
+	.card .card-btn-pay{
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: hsl(245, 75%, 52%);
+		padding: 10px 70px;
+		margin: 20px auto;
+		border-radius: 10px;
+		cursor: pointer;
+	}
+
+	.card .card-btn-pay:hover{
+
+		opacity: 0.7;
+	}
+
+	.card .card-btn-pay a{
+		color: #fff;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 14px;
+	}
+
+	.card .card-btn-cancel{
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto 20px auto;
+	}
+
+	.card .card-btn-cancel a{
+
+		color: hsl(224, 23%, 55%);
+		text-decoration: none;
+		font-weight: 900;
+		font-size: 14px;
+	}
+
+	.card .card-btn-cancel a:hover{
+
+		color: hsl(223, 47%, 23%);
+	}
+}
