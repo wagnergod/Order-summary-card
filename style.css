@@ -62,8 +62,8 @@ body{
 		padding: 10px 0;
 		width: 80%;
 		color: hsl(224, 23%, 55%);
-	    line-height: 1.5;
-	    font-size: 15px;
+		line-height: 1.5;
+		font-size: 15px;
 	}
 
 	.card .card-price{
